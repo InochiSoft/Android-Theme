@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Yellow" parent="AppTheme">
+	    <item name="colorPrimary">@color/yellow_600</item>
+	    <item name="colorPrimaryDark">@color/yellow_900</item>
+	    <item name="colorAccent">@color/yellow_300</item>
+    </style>
+    <style name="Theme.Yellow.NoActionBar" parent="Theme.Yellow">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Yellow.ActionBar" parent="Theme.Yellow">
+        <item name="android:colorBackground">@color/yellow_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/yellow_400</item>
+    </style>
+    <style name="Theme.Yellow.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Yellow.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

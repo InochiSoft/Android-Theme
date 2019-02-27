@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeepOrange" parent="AppTheme">
+	    <item name="colorPrimary">@color/deep_orange_600</item>
+	    <item name="colorPrimaryDark">@color/deep_orange_900</item>
+	    <item name="colorAccent">@color/deep_orange_300</item>
+    </style>
+    <style name="Theme.DeepOrange.NoActionBar" parent="Theme.DeepOrange">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.DeepOrange.ActionBar" parent="Theme.DeepOrange">
+        <item name="android:colorBackground">@color/deep_orange_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/deep_orange_400</item>
+    </style>
+    <style name="Theme.DeepOrange.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.DeepOrange.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

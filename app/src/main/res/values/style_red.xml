@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Red" parent="AppTheme">
+	    <item name="colorPrimary">@color/red_600</item>
+	    <item name="colorPrimaryDark">@color/red_900</item>
+	    <item name="colorAccent">@color/red_300</item>
+    </style>
+    <style name="Theme.Red.NoActionBar" parent="Theme.Red">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Red.ActionBar" parent="Theme.Red">
+        <item name="android:colorBackground">@color/red_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/red_400</item>
+    </style>
+    <style name="Theme.Red.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Red.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

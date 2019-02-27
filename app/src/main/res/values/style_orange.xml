@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Orange" parent="AppTheme">
+	    <item name="colorPrimary">@color/orange_600</item>
+	    <item name="colorPrimaryDark">@color/orange_900</item>
+	    <item name="colorAccent">@color/orange_300</item>
+    </style>
+    <style name="Theme.Orange.NoActionBar" parent="Theme.Orange">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Orange.ActionBar" parent="Theme.Orange">
+        <item name="android:colorBackground">@color/orange_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/orange_400</item>
+    </style>
+    <style name="Theme.Orange.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Orange.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

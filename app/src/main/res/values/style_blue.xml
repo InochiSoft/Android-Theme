@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Blue" parent="AppTheme">
+	    <item name="colorPrimary">@color/blue_600</item>
+	    <item name="colorPrimaryDark">@color/blue_900</item>
+	    <item name="colorAccent">@color/blue_300</item>
+    </style>
+    <style name="Theme.Blue.NoActionBar" parent="Theme.Blue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Blue.ActionBar" parent="Theme.Blue">
+        <item name="android:colorBackground">@color/blue_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/blue_400</item>
+    </style>
+    <style name="Theme.Blue.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Blue.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

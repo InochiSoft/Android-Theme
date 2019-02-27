@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeepPurple" parent="AppTheme">
+	    <item name="colorPrimary">@color/deep_purple_600</item>
+	    <item name="colorPrimaryDark">@color/deep_purple_900</item>
+	    <item name="colorAccent">@color/deep_purple_300</item>
+    </style>
+    <style name="Theme.DeepPurple.NoActionBar" parent="Theme.DeepPurple">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.DeepPurple.ActionBar" parent="Theme.DeepPurple">
+        <item name="android:colorBackground">@color/deep_purple_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/deep_purple_400</item>
+    </style>
+    <style name="Theme.DeepPurple.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.DeepPurple.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

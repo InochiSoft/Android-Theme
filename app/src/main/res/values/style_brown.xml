@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Brown" parent="AppTheme">
+	    <item name="colorPrimary">@color/brown_600</item>
+	    <item name="colorPrimaryDark">@color/brown_900</item>
+	    <item name="colorAccent">@color/brown_300</item>
+    </style>
+    <style name="Theme.Brown.NoActionBar" parent="Theme.Brown">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Brown.ActionBar" parent="Theme.Brown">
+        <item name="android:colorBackground">@color/brown_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/brown_400</item>
+    </style>
+    <style name="Theme.Brown.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Brown.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

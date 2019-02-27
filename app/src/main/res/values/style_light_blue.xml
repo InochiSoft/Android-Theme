@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LightBlue" parent="AppTheme">
+	    <item name="colorPrimary">@color/light_blue_600</item>
+	    <item name="colorPrimaryDark">@color/light_blue_900</item>
+	    <item name="colorAccent">@color/light_blue_300</item>
+    </style>
+    <style name="Theme.LightBlue.NoActionBar" parent="Theme.LightBlue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.LightBlue.ActionBar" parent="Theme.LightBlue">
+        <item name="android:colorBackground">@color/light_blue_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/light_blue_400</item>
+    </style>
+    <style name="Theme.LightBlue.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.LightBlue.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

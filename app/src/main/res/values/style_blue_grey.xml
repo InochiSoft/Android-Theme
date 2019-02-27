@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BlueGrey" parent="AppTheme">
+	    <item name="colorPrimary">@color/blue_grey_600</item>
+	    <item name="colorPrimaryDark">@color/blue_grey_900</item>
+	    <item name="colorAccent">@color/blue_grey_300</item>
+    </style>
+    <style name="Theme.BlueGrey.NoActionBar" parent="Theme.BlueGrey">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.BlueGrey.ActionBar" parent="Theme.BlueGrey">
+        <item name="android:colorBackground">@color/blue_grey_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/blue_grey_400</item>
+    </style>
+    <style name="Theme.BlueGrey.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.BlueGrey.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

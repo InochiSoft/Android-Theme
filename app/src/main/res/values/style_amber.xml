@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Amber" parent="AppTheme">
+	    <item name="colorPrimary">@color/amber_600</item>
+	    <item name="colorPrimaryDark">@color/amber_900</item>
+	    <item name="colorAccent">@color/amber_300</item>
+    </style>
+    <style name="Theme.Amber.NoActionBar" parent="Theme.Amber">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Amber.ActionBar" parent="Theme.Amber">
+        <item name="android:colorBackground">@color/amber_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/amber_400</item>
+    </style>
+    <style name="Theme.Amber.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Amber.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>

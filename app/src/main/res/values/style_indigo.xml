@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Indigo" parent="AppTheme">
+	    <item name="colorPrimary">@color/indigo_600</item>
+	    <item name="colorPrimaryDark">@color/indigo_900</item>
+	    <item name="colorAccent">@color/indigo_300</item>
+    </style>
+    <style name="Theme.Indigo.NoActionBar" parent="Theme.Indigo">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Indigo.ActionBar" parent="Theme.Indigo">
+        <item name="android:colorBackground">@color/indigo_600</item>
+        <item name="android:colorBackgroundCacheHint">@color/indigo_400</item>
+    </style>
+    <style name="Theme.Indigo.AppBarOverlay" parent="AppTheme.AppBarOverlay" />
+    <style name="Theme.Indigo.PopupOverlay" parent="AppTheme.PopupOverlay" />
+</resources>
